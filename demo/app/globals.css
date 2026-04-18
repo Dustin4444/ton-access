@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card: #171717;
+  --card-foreground: #fafafa;
+  --border: #262626;
+  --input: #262626;
+  --primary: #0ea5e9;
+  --primary-foreground: #ffffff;
+  --secondary: #1e1e1e;
+  --secondary-foreground: #a1a1aa;
+  --muted: #262626;
+  --muted-foreground: #71717a;
+  --accent: #06b6d4;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+/* JSON syntax highlighting */
+.json-key {
+  color: #93c5fd;
+}
+
+.json-string {
+  color: #86efac;
+}
+
+.json-number {
+  color: #fde047;
+}
+
+.json-boolean {
+  color: #f472b6;
+}
+
+.json-null {
+  color: #a78bfa;
+}
