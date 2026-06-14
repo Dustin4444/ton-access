@@ -4,7 +4,18 @@ export function delay(ms: number) {
 export async function getJson(url: string) {
     const settings = { method: "Get" };
     const res = await fetch(url, settings);
-    return await res.json();
+    if (!res.ok) {
+        throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
+    }
+    const text = await res.text();
+    if (!text) {
+        return null;
+    }
+    try {
+        return JSON.parse(text);
+    } catch (e) {
+        throw new Error(`Failed to parse JSON from ${url}: ${text}`);
+    }
 }
 async function sanityEndpoint(endpoint: string) {
     const jsn = await getJson(endpoint);

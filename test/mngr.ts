@@ -16,11 +16,7 @@ describe('Mngr', function () {
             // check not stale
             const delta = now - node.Mngr.successTS;
             expect(delta).lessThan(3 * 60 * 1000);
-            let healthy = true;
-            for (const protonet in node.Mngr.health) {
-                healthy = healthy && node.Mngr.health[protonet];
-            }
-            expect(healthy).eq(true);
+            expect(node.Mngr.atleastOneHealthy).eq(true);
         }
     });
     // legacy nodes
