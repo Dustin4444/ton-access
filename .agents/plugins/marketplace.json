@@ -3,5 +3,54 @@
   "interface": {
     "displayName": "Marketplace"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "plain",
+      "category": "Productivity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/plain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "asw",
+      "category": "Productivity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/asw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "validator-status-list",
+      "category": "Productivity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/validator-status-list"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "base-mcp",
+      "category": "Productivity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
 }
