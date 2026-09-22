@@ -1,0 +1,6 @@
+{
+  "metorial": {
+    "type": "http",
+    "url": "https://api.metorial.com/connect/plugin/base-mcp"
+  }
+}

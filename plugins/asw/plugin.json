@@ -1,0 +1,12 @@
+{
+  "name": "asw",
+  "description": null,
+  "version": "0.0.1",
+  "author": {
+    "name": "Metorial",
+    "email": "hey@metorial.com"
+  },
+  "mcpServers": ".mcp.json",
+  "skills": "skills/",
+  "agents": "agents/"
+}

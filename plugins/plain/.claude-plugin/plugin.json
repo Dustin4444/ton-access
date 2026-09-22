@@ -1,0 +1,15 @@
+{
+  "name": "plain",
+  "description": null,
+  "version": "0.0.1",
+  "author": {
+    "name": "Metorial",
+    "email": "hey@metorial.com"
+  },
+  "mcpServers": {
+    "metorial": {
+      "type": "http",
+      "url": "https://api.metorial.com/connect/plugin/plain"
+    }
+  }
+}

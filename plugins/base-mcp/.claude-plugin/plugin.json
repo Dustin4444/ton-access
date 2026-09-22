@@ -1,0 +1,15 @@
+{
+  "name": "base-mcp",
+  "description": "Base MCP — gives your AI assistant access to a Base Account via the Base MCP server (mcp.base.org). Wallet, portfolio, sending, swapping, signing, x402 payments, batched contract calls, and transaction history across supported chains.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Metorial",
+    "email": "hey@metorial.com"
+  },
+  "mcpServers": {
+    "metorial": {
+      "type": "http",
+      "url": "https://api.metorial.com/connect/plugin/base-mcp"
+    }
+  }
+}
