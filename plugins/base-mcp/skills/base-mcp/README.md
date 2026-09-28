@@ -5,9 +5,13 @@ description: "Terms, risks, and limitations for using the Base MCP skill with AI
 
 # Base MCP — Disclaimer
 
-> ⚠️ **Important: Read Before Use**
+<info>
 
-**What this is.** The Base MCP is a hosted Model Context Protocol server operated by Base that lets AI agents interact with a user's Base Account in a user-authorized way. After authenticating and connecting to the MCP server, the MCP server can read account state and construct transactions for the user to approve and sign. The MCP server itself does not sign or broadcast transactions. By using this MCP server, you agree to the [Base Account and Base App Terms of Service](https://wallet.coinbase.com/terms-of-service).
+> - ⚠️ **Important: Read Before Use**
+
+</info>
+
+<equation>What this is. The Base MCP is a hosted Model Context Protocol server operated by Base that lets AI agents interact with a user's Base Account in a user-authorized way. After authenticating and connecting to the MCP server, the MCP server can read account state and construct transactions for the user to approve and sign. The MCP server itself does not sign or broadcast transactions. By using this MCP server, you agree to the Base Account and Base App Terms of Service.</equation>
 
 **Third-party AI hosts, agents, and protocols.** The Base MCP is designed to be used with third-party AI hosts and may, depending on the skills loaded into the AI host, prepare transactions that interact with third-party onchain protocols. Those AI hosts and third-party protocols are not operated by Base and are governed by their own terms of service, privacy policies, and (where applicable) jurisdictional eligibility requirements. You are solely responsible for reviewing and complying with each third party's terms and confirming you are eligible to use them.
 
